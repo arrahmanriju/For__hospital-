@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+/* ======================head part css start=========================================== */
+
+
+.container .logo-head{
+    width: 10%;
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.container .head-text{
+    width: 90%;
+    float: left;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.head-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #3ca2a2;
+}
+.head-text span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ca0711;
+    padding-left: 50px;
+}
+/* ===========================navbar part css start======================= */
+#menuid{
+    background-color: #b40e10;
+}
+#menuid .menu-nav{
+    width: 800px;
+    float: left;
+    text-align: center;
+}
+#menuid .menu-nav ul li{
+    display: inline-block;
+}
+#menuid .menu-nav ul li a{
+    color: white;
+    padding:0px 10px;
+    line-height: 50px;
+    display: block;
+    transition: all linear 0.4s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#menuid .menu-nav ul li a:hover{
+    background-color: #f18d26;
+}
+
+
+#menuid .menu-icon{
+    width: 170px;
+    float: left;
+    text-align: right;
+    padding-top: 7px;
+}
+.menu-icon i{
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    color: #b40e10;
+    transition: all linear 0.4s;
+}
+.menu-icon i:hover{
+    background-color: #b40e10;
+    color: white;
+}
+/* ===============================================banner part css start ====================================== */
+#banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+}
+#banner .banner-text{
+    width: 485px;
+    float: left;
+    margin-top: 75px;
+}
+#banner .banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #215a6d;
+}
+#banner .banner-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    font-style: italic;
+    color: #215a6d;
+}
+#banner .banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #215a6d;
+    line-height: 22px;
+    padding-right: 200px;
+    margin-bottom: 35px;
+}
+#banner .banner-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #215a6d;
+    border: 1px solid #92c7a3;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all linear 0.4s;
+}
+#banner .banner-text a:hover{
+    background-color: #92c7a3;
+}
+#banner .banner-partimg{
+    width: 485px;
+    float: left;
+}
+/* ========================about part css start===================================== */
+#about{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about .about-item{
+    width: 290px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+}
+#about .about-item .about-item-head h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3ca2a2;
+    margin-bottom: 25px;
+}
+#about .about-item .image {
+    margin-bottom: 15px;
+}
+
+#about .about-item .image img{
+    width: 100%;
+}
+#about .about-item .about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #215a6d;
+    line-height: 20px;
+}
+#about .about-item .about-text-two i{
+    padding-right: 7px;
+    color: #cb1821;
+    font-size: large;
+}
+#about .about-item .about-text-two h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #92c7a3;
+    cursor: pointer;
+    padding-top: 25px;
+}
+#about .last-child{
+    margin-right: 0;
+}
+
+/* =============================board part css start==================================== */
+#board{
+    background-color: #dfece6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#board .board-main .board-item{
+    width: 470px;
+    float: left;
+    margin-right: 30px;
+}
+#board .board-main .board-item .board-head h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+    position: relative;
+    margin-bottom: 33px;
+
+}
+#board .board-main .board-item .board-head h3::after{
+    position: absolute;
+    content: '';
+    width: 78px;
+    height: 2px;
+    background: #b40e10;
+    left: 0;
+    top: 45px; 
+}
+
+#board .board-main .board-item .board-main2nd .board-main-text-o{
+    width: 90%;
+    float: left;
+    background: white;
+    padding: 15px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #56bbc7;
+}
+#board .board-main .board-item .board-main2nd .board-main-text-o h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #56bbc7;
+}
+#board .board-main .board-item .board-main2nd .board-main-text-icon{
+    width: 10%;
+    text-align: center;
+    float: left;
+    border-bottom: 1px solid #56bbc7;
+}
+#board .board-main .board-item .board-main2nd .board-main-text-icon i{
+    background: #ca0711;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+}
+
+
+
+
+
+
+#board .board-main .board-itemt{
+    width: 470px;
+    float: left;
+    
+}
+#board .board-main .board-itemt .board-head h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+    position: relative;
+    margin-bottom: 33px;
+
+}
+#board .board-main .board-itemt .board-head h3::after{
+    position: absolute;
+    content: '';
+    width: 78px;
+    height: 2px;
+    background: #b40e10;
+    left: 0;
+    top: 45px; 
+}
+#board .board-main .board-itemt .board-main{
+    padding-top: 20px;
+}
+#board .board-main .board-itemt .board-main img{
+    width: 100%;
+}
+#board .board-main .board-bottom{
+    margin-top: 23px;
+    color: #b40e10;
+}
+#board .board-main .board-bottom i{
+    margin-right: 5px;
+}
+#board .board-main .board-bottom h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* ===============================================news part css start ======================================== */
+#news{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+#news .news-main .news-item{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+#news .news-main .news-item .news-item-head h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+#news .news-main .news-item .news-item-head h4::before{
+    position: absolute;
+    content: '';
+    width: 78px;
+    height: 2px;
+    background: #b40e10;
+    left: 0;
+    top: 45px;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text{
+    margin-top: 40px;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #215a6d;
+    border-bottom: 1px solid #dfece6;
+    padding-bottom: 30px;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #215a6d;
+}
+#news .news-main .news-item .news-item-bottom h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 38px;
+    color: #3ca2a2;
+}
+#news .news-main .news-item .news-item-bottom h4 i{
+    color: #b40e10;
+    margin-right: 3px;
+}
+
+
+
+#news .news-main .news-item .news-item-main .news-item-main-text ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #215a6d;
+    padding-bottom: 12px;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text ul li i{
+    color: #b40e10;
+    margin-right: 3px;
+}
+#news .news-main .last-child{
+    margin-right: 0;
+}
+
+
+
+#news .news-main .news-item .news-item-main .news-item-main-text .news-images .news-img-l{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+#news .news-main .news-item .news-item-main .news-item-main-text .news-images .news-img-l img{
+    width: 100%;
+    border: 3px solid #dfece6;
+    margin-bottom: 10px;
+}
+
+#news .news-main .news-item .news-item-main .news-item-main-text .news-images .news-img-r{
+    width: 40%;
+    float: left;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text .news-images .news-img-r img{
+    width: 100%;
+    border: 3px solid #dfece6;
+    margin-bottom: 10px;
+}
+#news .news-main .news-item .news-item-main .news-item-main-text .news-images{
+    margin-bottom: 50px;
+}
+/* ===============================================================================our doctor part css start ================= */
+#doctor{
+    margin-bottom: 80px;
+}
+#doctor .doctor-main .doctor-head h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 15px;
+    position: relative;
+}
+#doctor .doctor-main .doctor-head h2::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 53px;
+    width: 85px;
+    height: 2px;
+    background-color: #ca0711;
+}
+#doctor .doctor-main .doctor-item{
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 32px;
+}
+#doctor .doctor-main .doctor-item .docimg{
+    margin-bottom: 15px;
+}
+#doctor .doctor-main .doctor-item .docimg img{
+    width: 100%;
+    border: 4px solid #dfece6;
+}
+#doctor .doctor-main .doctor-item .doctext h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+#doctor .doctor-main .doctor-item .doctext h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #878787;
+    margin-top: 5px;
+}
+#doctor .doctor-main .doctor-item .doctext h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #cf0511;
+}
+#doctor .doctor-main .last-child{
+    margin-right: 0;
+}
+/* ===========================================footer part css start============================= */
+#footer{
+    background-color: #222222;
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+#footer .footer-head{
+    margin-bottom: 45px;
+}
+#footer .footer-head .footerimg{
+    width: 120px;
+    float: left;
+}
+#footer .footer-head .footerimg img{
+    width: 100%;
+}
+#footer .footer-head .footer-headtext{
+    width: 850px;
+    float: left;
+}
+#footer .footer-head .footer-headtext h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #92c7a3;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+
+
+
+#footer .footer-main .footer-item{
+    width: 25%;
+    float: left;
+}
+#footer .footer-main .footer-item .footer-item-head{
+    margin-bottom: 20px;
+}
+#footer .footer-main .footer-item .footer-item-head h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #399595;
+}
+#footer .footer-main .footer-item .footer-item-bottom h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c6ded9;
+    margin-bottom: 15px;
+}
+#footer .footer-main .footer-item .footer-item-bottom h4 i{
+    color: #c30911;
+    margin-right: 3px;
+}
+
+/* ==================================================================copy right part css start================================= */
+#copyright{
+    background-color: #cf0511;
+
+}
+#copyright .copy-text{
+    text-align: center;
+}
+#copyright .copy-text h4{
+    color: #cb8f8e;
+    line-height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
